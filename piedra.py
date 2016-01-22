@@ -20,7 +20,7 @@ while True:
 	sleep(0.5)
 	tkMessageBox.showinfo("Platzi",("Computadora elijio {}.").format(pc))
 	if x == pc:
-		tkMessageBox.showinfo("Platzi", ("Empate.").format(sus))
+		tkMessageBox.showinfo("Platzi", "Empate.")
 #opciones
 	elif x == "papel" and pc == "tijera":
 		sleep(0.5)
